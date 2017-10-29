@@ -72,6 +72,10 @@ spring:
         locator:
             discovery:
                 enabled: true
+    rabbitmq:
+      username: imanager
+      host: localhost
+      password: imanager
 
 liquibase:
     contexts: prod
